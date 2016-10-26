@@ -33,5 +33,19 @@ Hello, world!
     console.log(i);
 
 
+    var firstName = Elena;
+    console.log(firstName);
+    var middleName = Catherine;
+    console.log(middleName);
+    var lastName = Vierra;
+    console.log(lastName);
+
+    var name = firstName + middleName + lastName;
+    console.log(name);
+    var statement = "my name is" + name;
+    console.log(statement);
+    var greeting = "Hi," + statement;
+    console.log(greeting);
+
   </script>
 </body>
