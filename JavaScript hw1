@@ -47,5 +47,21 @@ Hello, world!
     var greeting = "Hi," + statement;
     console.log(greeting);
 
+
+    function squareIt(number) {
+      var squared = number * number;
+      console.log(squared);
+    }
+    squareIt(5);
+    squareIt(4);
+    squareIt(3);
+
+    function name (firstName, middleName, lastName) {
+      return firstName + middleName + lastName
+    }
+    name("Elena", "Catherine", "Vierra");
+    name("Emelia", "Maria", "Vierra");
+    name("Darian", "Tristan", "King");
+
   </script>
 </body>
